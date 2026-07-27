@@ -10,7 +10,7 @@
 ```
 git clone git@github.com:xcprinter/xcprinter.github.io.git
 ```
-* **直接双击 `index.html` 即可在浏览器中预览，或部署到任意静态服务器。**
+* **直接点击 `index.html` 即可在浏览器中预览，或部署到任意静态服务器。**
 * 页面适配桌面端和移动端，`@media (max-width: 480px)` 自动切换布局。
 * 代码问题请提 [issue](https://github.com/xcprinter/xcprinter.github.io/issues)。
 
