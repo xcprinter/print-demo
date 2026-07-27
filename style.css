@@ -1,24 +1,36 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     h1, h2 {
       text-align: center;
       color: maroon;
       
     }
-    .card {
-      background: rgb(250, 231, 212);
-      border-radius: 8px;
-      padding: 60px 40px;
-      max-width: 600px;
-      width: 100%;
-      text-align: center;
-      margin: auto;
-    }
 
     body {
       background-color: linen;
+      min-height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 100px;
+      padding: 0 16px;
+    }
+
+    .card {
+      background: rgb(250, 231, 212);
+      border-radius: 8px;
+      padding: 60px 24px;
+      width: 100%;
+      text-align: center;
+      margin: auto 0;
+    }
+
+    .text-centered {
+      max-width: 600px;
+      margin: 0 auto;
     }
 
     h1 {
@@ -28,8 +40,9 @@
     }
 
     h2 {
-      line-height: 0.4;
+      line-height: 1.6;
       font-size: 20px;
+      margin-top: 8px;
     }
 
     button {
@@ -45,3 +58,15 @@
     }
 
     button:hover { background: #c1121f; }
+
+    @media (max-width: 480px) {
+      body { padding: 0; }
+      h1 { font-size: 24px; letter-spacing: 2px; }
+      h2 { font-size: 16px; margin-top: 6px; }
+      .card {
+        padding: 48px 16px;
+        max-width: none;
+        border-radius: 0;
+      }
+      button { width: 100%; padding: 12px 0; }
+    }
