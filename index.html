@@ -2,50 +2,13 @@
 <html>
 <head>
   <title>XCPrinter</title>
-  <style>
-    * {
-      text-align: center;
-      color: maroon;
-      
-    }
-    .card{
-      background: rgb(250, 231, 212);
-      border-radius: 8px;
-      padding: 60px 40px;
-      max-width: 600px;
-      width: 100%;
-      text-align: center;
-      margin: auto;
-    }
-    body{
-      background-color: linen;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 100px;
-    }
-    h1{
-      color: Tomato;
-    }
-    button{
-      color: white;
-      background: red;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: background 0.2s;
-      font-size: 15px;
-      margin-top: 32px;
-      padding: 12px 40px;
-    }
-    button:hover { background: #c1121f; }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 	<section class="card" data-controller="print-pos">
     <div class="text-centered">
-    <h1 data-print="text_big" class="text-white">曦辰打印机</h1>
+    <h1 data-print="text" class="text-white">曦辰打印机</h1>
     <h2 data-print="text" class=" is-4 text-white">绕过巨头抽成和垄断</h2>
     <h2 data-print="text" class=" is-4 text-white">让小商家和骑手更赚钱</h2>
     </div>
