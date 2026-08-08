@@ -27,13 +27,13 @@
 ### 代码示例
 
 ```html
-<section class="card" data-controller="print-pos">
+<section data-controller="print-pos" data-print-pos-button-value="print">
   <div class="text-centered">
     <h1 data-print="text">曦辰打印机</h1>
     <h2 data-print="text">绕过巨头抽成和垄断</h2>
     <h2 data-print="text">让小商家和骑手更赚钱</h2>
   </div>
-  <button data-action="print-pos#print">打印</button>
+  <button id="print">打印</button>
 </section>
 ```
 
@@ -43,6 +43,6 @@
 * `data-print="text_big"` — 打印标题
 * `data-print="text"` — 打印文本内容
 * `data-print="qrcode"` — 打印二维码
-* `data-action="print-pos#print"` — 触发打印操作
+* `data-print-pos-button-balue="print"` —指定 id 为 `print`的元素触发打印操作
 
 [index.html](index.html) 是一个完整的真实案例，可前往 [在线预览](https://app-demo.xcprinter.com) 查看效果。
