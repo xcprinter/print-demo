@@ -30,9 +30,17 @@
 ## 打印具体数据
 ```html
 <button
-	data-action="click->bridge-bluetooth#printData"
+	data-action="click->print-pos#printData"
   data-content="1f,2d,35,04,00,05,c8,00"
 >设置步进</button>
+```
+
+## 打印
+```html
+<button data-action="click->print-pos#printInner">
+  <div data-print="barcode" class="display-none">012345789</div>
+  <span>打印条形码</span>
+</button>
 ```
 
 ### 综合示例
