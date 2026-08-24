@@ -29,7 +29,10 @@
 
 ## 打印具体数据
 ```html
-<button data-action="click->bridge-bluetooth#printData" data-content="1f,2d,35,04,00,05,c8,00">设置步进</button>
+<button
+	data-action="click->bridge-bluetooth#printData"
+  data-content="1f,2d,35,04,00,05,c8,00"
+>设置步进</button>
 ```
 
 ### 综合示例
