@@ -30,7 +30,7 @@
 ## 打印具体数据
 ```html
 <button
-	data-action="click->print-pos#printData"
+  data-action="click->print-pos#printData"
   data-content="1f,2d,35,04,00,05,c8,00"
 >设置步进</button>
 ```
