@@ -25,7 +25,7 @@
 * `data-print="text_big"` 打印标题
 * `data-print="text"` 打印文本内容
 * `data-print="qrcode"` 打印二维码
-* `data-print-pos-button-balue="print"` 指定 id 为 `print` 的元素触发打印操作
+* `data-button-id="print"` 指定 id 为 `print` 的元素触发打印操作
 
 ## 打印具体数据
 ```html
@@ -45,11 +45,11 @@
 
 ### 综合示例
 ```html
-<section data-controller="print-pos" data-print-pos-button-value="print">
+<section data-controller="print-pos" data-button-id="print">
   <div class="text-centered">
     <h1 data-print="text_big">打印标题</h1>
-    <h2 data-print="text">绕过巨头抽成和垄断</h2>
-    <h2 data-print="text">让小商家和骑手更赚钱</h2>
+    <h2 data-print="text">打印普通文本</h2>
+    <h2 data-print="qrcode">打印为二维码</h2>
   </div>
   <button id="print">打印</button>
 </section>
